@@ -1,0 +1,58 @@
+﻿*{
+    padding:0;
+    margin: 0;
+}
+body
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    margin: .5em 0 1em;
+}
+table{
+    margin: auto;
+    border-spacing:0;
+}
+td{
+    border: 1px solid gray;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: white;
+
+}
+input[type="checkbox"]:checked{
+    background: black;
+    box-shadow: 0 0 0 99px black inset;
+}
+#autoplay{
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+#autoplay input[type="checkbox"]{
+    -webkit-appearance: checkbox;
+    -moz-appearance:checkbox;
+    
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: white;
+
+}
+#autoplay input[type="checkbox"]:checked {
+    
+    background: white;
+    box-shadow:none;
+}
